@@ -28,6 +28,8 @@ var settings = {
 
 const Hero = () => {
   return (
+
+    
     <div className="mb-20">
       <Slider {...settings} className="">
         {/* 1st */}
