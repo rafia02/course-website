@@ -44,21 +44,21 @@ const Navber = () => {
               Courses
             </button>
           </Link>
-          <Link href="/">
+          <Link href="/contact">
             <button className="focus:text-secondary text-primary">
               Contact Us
             </button>
           </Link>
           <Link href="/">
-            <Image src={icon1} width={30} height={30} alt=""></Image>
+            <Image src={icon1} width={20} height={20} alt=""></Image>
           </Link>
           <button
             onClick={handleToggle}
-            className={`bg-primary pr-7 py-1 px-1 rounded-full focus:outline-none
+            className={`bg-primary pr-6 py-1 px-1 rounded-full focus:outline-none
           }`}
           >
             <span
-              className={`block w-6 h-6 rounded-full bg-white shadow-md transform transition-transform ${
+              className={`block w-5 h-5 rounded-full bg-white shadow-md transform transition-transform ${
                 isActive ? "translate-x-full" : ""
               }`}
             >

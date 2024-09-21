@@ -37,7 +37,7 @@ const Practise = () => {
           <div>
             <h2 className="text-xl mb-4 font-semibold">Complete driving test preparation</h2>
             <h1 className="text-2xl md:text-3xl mb-4 font-semibold">
-            Let's start with Learn to Drive with this
+            Let&apos;s start with Learn to Drive with this
             </h1>
             <p className="text-justify">
             Now wherever you are, nothing matters! Because everyone is learning and winning with Learn Drive, the most trusted driving learning organization in the country. But how? Watch the video next to know.

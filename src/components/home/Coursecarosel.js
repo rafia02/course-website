@@ -62,7 +62,7 @@ const Coursecarosel = () => {
           <div className=" px-2  py-5">
             <div className="flex items-center gap-2 text-secondary">
               <BiSolidCategory className="text-xl" />
-              <h1 className="text-xs font-semibold">Category -B</h1>
+              <p className="text-xs font-semibold">Category -B</p>
             </div>
             <h1 className=" font-semibold my-5 text-primary">
               1.1 Easy Driving - 101 Exercise
@@ -91,7 +91,7 @@ const Coursecarosel = () => {
           <div className=" px-2  py-5">
             <div className="flex items-center gap-2 text-secondary">
               <BiSolidCategory className="text-xl" />
-              <h1 className="text-xs font-semibold">Category -B</h1>
+              <p className="text-xs font-semibold">Category -B</p>
             </div>
             <h1 className=" font-semibold my-5 text-primary">
               1.1 Easy Driving - 101 Exercise
@@ -120,7 +120,7 @@ const Coursecarosel = () => {
           <div className=" px-2  py-5">
             <div className="flex items-center gap-2 text-secondary">
               <BiSolidCategory className="text-xl" />
-              <h1 className="text-xs font-semibold">Category -B</h1>
+              <p className="text-xs font-semibold">Category -B</p>
             </div>
             <h1 className=" font-semibold my-5 text-primary">
               1.1 Easy Driving - 101 Exercise
@@ -149,7 +149,7 @@ const Coursecarosel = () => {
           <div className=" px-2  py-5">
             <div className="flex items-center gap-2 text-secondary">
               <BiSolidCategory className="text-xl" />
-              <h1 className="text-xs font-semibold">Category -B</h1>
+              <p className="text-xs font-semibold">Category -B</p>
             </div>
             <h1 className=" font-semibold my-5 text-primary">
               1.1 Easy Driving - 101 Exercise
@@ -178,7 +178,7 @@ const Coursecarosel = () => {
           <div className=" px-2  py-5">
             <div className="flex items-center gap-2 text-secondary">
               <BiSolidCategory className="text-xl" />
-              <h1 className="text-xs font-semibold">Category -B</h1>
+              <p className="text-xs font-semibold">Category -B</p>
             </div>
             <h1 className=" font-semibold my-5 text-primary">
               1.1 Easy Driving - 101 Exercise
@@ -207,7 +207,7 @@ const Coursecarosel = () => {
           <div className=" px-2  py-5">
             <div className="flex items-center gap-2 text-secondary">
               <BiSolidCategory className="text-xl" />
-              <h1 className="text-xs font-semibold">Category -B</h1>
+              <p className="text-xs font-semibold">Category -B</p>
             </div>
             <h1 className=" font-semibold my-5 text-primary">
               1.1 Easy Driving - 101 Exercise
@@ -236,7 +236,7 @@ const Coursecarosel = () => {
           <div className=" px-2  py-5">
             <div className="flex items-center gap-2 text-secondary">
               <BiSolidCategory className="text-xl" />
-              <h1 className="text-xs font-semibold">Category -B</h1>
+              <p className="text-xs font-semibold">Category -B</p>
             </div>
             <h1 className=" font-semibold my-5 text-primary">
               1.1 Easy Driving - 101 Exercise

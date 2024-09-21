@@ -13,7 +13,7 @@ const Benifites = () => {
     <div className="grid mt-10 md:grid-cols-5 gap-10">
 
       {
-        benifitData.map(b => <div className="flex text-gray-200 flex-col gap-3 items-center">
+        benifitData.map(b => <div key={b.title1} className="flex text-gray-200 flex-col gap-3 items-center">
           <Image width={200} height={100} src={b.img} className=" h-14 w-14" alt=""></Image>
           <p className="  mt-5 leading-3 text-center">{b.title1} </p>
           <p className=" mt-0 leading-3 text-center">{b.title2} </p>

@@ -87,9 +87,9 @@ body {
 .custom-radio {
   appearance: none;
   -webkit-appearance: none; /* For Safari */
-  width: 20px;
-  height: 20px;
-  border: 1px solid #C82E8E;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #C82E8E;
   border-radius: 4px; /* Slightly rounded corners */
   cursor: pointer;
   opacity: 50%;
@@ -98,9 +98,9 @@ body {
 
 /* Background color and white border when the radio button is checked */
 .custom-radio:checked {
-  border: 1px solid #C82E8E;
+  border: 2px solid #C82E8E;
   background: url('../Assets/header/radio.svg') no-repeat center center;
-  background-size: 12px 12px;
+  background-size: 10px 10px;
   opacity: 100%;
 }
 
