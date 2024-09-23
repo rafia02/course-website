@@ -5,7 +5,7 @@ const GenericCategories = ["100", "15", "8825", "1122"];
 
 const SearchBox = () => {
   return (
-    <div className="relative my-20 p-1 mx-5  md:mx-8  bg-gradient-to-r from-primary to-secondary rounded-xl ">
+    <div className="relative  my-20 p-1 mx-5  md:mx-8  bg-gradient-to-r from-primary to-secondary rounded-xl ">
     <div className='bg-white p-6 rounded-lg'>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-40">
       {/* fst  */}

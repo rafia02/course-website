@@ -15,7 +15,7 @@ import Image from "next/image";
 const BetweenCourse = () => {
   const [show, setShow] = useState("Live & Recorded Classes");
   return (
-    <div className="bgStyle2 mt-24 px-5 py-10 md:px-10">
+    <div className="bgStyle2 px-5 py-10 md:px-10">
       <div className="text-center text-white">
         <h1 className="text-2xl md:text-3xl font-semibold">
           Everything is in our course

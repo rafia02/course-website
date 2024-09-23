@@ -5,6 +5,7 @@ import CustomInput from "@/components/Courses/CustomInput";
 import { BiSolidCategory } from "react-icons/bi";
 import { MdOutlinePlayCircleOutline } from "react-icons/md";
 import { FaRegUserCircle } from "react-icons/fa";
+import Pricing from "@/components/Courses/Pricing";
 
 const coursesData = [
   { id: 1, title: "React Basics", category: "Development" },
@@ -21,17 +22,17 @@ const coursesData = [
 const CoursesPage = () => {
   return (
     <div className="mb-20">
-      <div className="bg h-72 flex flex-col justify-center items-center text-white">
-        <h1 className="text-4xl font-bold">All of our online courses</h1>
-        <p className=" mt-3">
+      <div className="bg h-72  flex flex-col justify-center items-center text-white">
+        <h1 className="text-3xl md:text-4xl  mx-5 font-bold text-center">All of our online courses</h1>
+        <p className="text-center mx-5 mt-3">
           Choose the course of your choice and become self-reliant by acquiring
           skills.
         </p>
       </div>
 
-      <div className="flex mt-16">
+      <div className="flex flex-col md:flex-row mt-10 md:mt-16">
         {/* fst colorm  */}
-        <div className="w-3/12 border-r-[0.5px] border-r-secondary px-7">
+        <div className="w-full md:w-3/12 border-r-[0.5px] border-r-secondary px-7">
           {/* type  */}
           <div>
             <h3 className="text-xl font-bold text-primary mb-5">Course Type</h3>
@@ -45,7 +46,7 @@ const CoursesPage = () => {
         </div>
 
         {/* 2nd coloumn */}
-        <div className="w-9/12 px-7">
+        <div className="w-full md:w-9/12 px-7">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             <div className="border rounded-xl bg-white border-stone-300">
               <video className="w-full rounded-t-xl" controls>
@@ -141,6 +142,10 @@ const CoursesPage = () => {
           </div>
         </div>
       </div>
+
+
+
+      <Pricing></Pricing>
     </div>
   );
 };

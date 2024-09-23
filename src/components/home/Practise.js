@@ -3,7 +3,7 @@ import React from 'react'
 
 const Practise = () => {
   return (
-    <div className="px-5 md:px-10 py-20 bgStyle3">
+    <div className="px-5 md:px-10 py-20">
       {/* fst section  */}
       <div className="grid grid-cols-1 gap-5 md:gap-20 md:grid-cols-2">
         <div className="flex items-center">

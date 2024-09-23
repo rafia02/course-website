@@ -5,7 +5,7 @@ import Testimonial from "./Testimonial";
 const WhyTrust = () => {
   return (
 
-      <div className=" bgStyle4 px-5 my-20 pt-10 md:pt-20 md:px-8">
+      <div className=" mt-24 bgStyle4 px-5 mb-20 pt-10 md:pt-20 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-64 justify-evenly">
           {/* fst  */}
           <div className="text-gray-200">

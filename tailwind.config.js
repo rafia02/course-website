@@ -26,7 +26,11 @@ module.exports = {
         primary2: "#7209b7",
         secondary: "#C82E8E",
         accent: "#22D3EE",
-        light: "#F3F4F6"
+        light: "#F3F4F6",
+        bgclr: "#F3F4F6",
+        gradiantPrimaryColor:
+          "linear-gradient(95deg, #EB31A2 -46.2%, #2B388F 39.88%, #2B388F 72.9%, rgba(224, 56, 158, 0.80) 143.06%)",
+    
 
 
 

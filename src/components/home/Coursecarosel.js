@@ -32,11 +32,11 @@ const Coursecarosel = () => {
 
       
   return (
-    <div className="mx-5 md:mx-8">
+    <div className="mx-5 md:mx-8 pb-32">
     <h1 className="text-xl md:text-3xl text-primary font-semibold">
     Choose your courses
     </h1>
-    <div className=" mt-9 border p-10 bg- mb-10 bgStyle rounded-lg">
+    <div className=" mt-9 border p-10  bgStyle rounded-lg">
       <Carousel
         swipeable={true}
         draggable={true}

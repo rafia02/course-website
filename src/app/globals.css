@@ -41,7 +41,15 @@ body {
 }
 
 .bgStyle0 {
-  background-image: url("https://dohacurtainhouse.com/static/media/bg%20hero%20section.bce4b9b397669a2cba3ac094ffcbf17a.svg");
+  background-image: url("../Assets/background/bg1.svg");
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+.setbg {
+  background-image: url("../Assets/background/bg3.png");
   background-size: cover;
   background-position: center;
   

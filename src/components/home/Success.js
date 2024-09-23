@@ -30,7 +30,7 @@ const Success = () => {
   }, []);
 
   return (
-    <div className="mt-[450px] md:mt-60 mx-5 md:mx-8 mb-20" ref={counterRef}>
+    <div className="mt-[450px] md:mt-60 mx-5 md:mx-8 pb-20" ref={counterRef}>
       <div className="flex flex-row  justify-center ">
         <div>
           <Image
