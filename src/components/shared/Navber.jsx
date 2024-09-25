@@ -34,11 +34,11 @@ const Navber = () => {
           <Link href="/">
             <button className="focus:text-secondary text-primary">Home</button>
           </Link>
-          <Link href="/">
+          {/* <Link href="/">
             <button className="focus:text-secondary text-primary">
               Country
             </button>
-          </Link>
+          </Link> */}
           <Link href="/courses">
             <button className="focus:text-secondary text-primary">
               Courses

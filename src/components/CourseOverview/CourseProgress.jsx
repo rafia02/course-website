@@ -6,7 +6,7 @@ import userBg2 from "/public/assets/dashboard/UserHome/bg-user-card2.png";
 import { Progress } from "@nextui-org/react";
 const CourseProgress = () => {
   return (
-    <div className="py-5  relative font-liador px-6 border border-solid bg-[rgba(247,247,247,0.50)] rounded-lg mb-5">
+    <div className="py-5  relative  px-6 border border-solid bg-[rgba(247,247,247,0.50)] rounded-lg mb-5">
       <Image
         src={userBg}
         width={100}
@@ -16,20 +16,20 @@ const CourseProgress = () => {
       />
       <div className="flex justify-between relative z-50 mb-6">
         <div className="flex gap-6 items-center border-b border-solid w-[497px] border-[#CE2786]">
-          <h3 className="text-2xl font-semibold primary-text-color">
-          Your progress
+          <h3 className="text-sm md:text-2xl font-semibold primary-text-color">
+          Progress
           </h3>
           <div className="flex gap-1 items-center">
             <Image src={Autoplay} alt="" />
-            <p className="text-lg">
+            <p className="text-xs md:text-lg">
               <span className="primary-text-color">12</span>{" "}
               <span className="second-text-color">/ 13</span>
             </p>
           </div>
-          <p className="primary-text-color text-lg">95% Complete</p>
+          <p className="primary-text-color text-xs md:text-lg">95% Complete</p>
         </div>
         <div className="">
-          <button className="px-6 bg-[#B9B9B9] text-white py-3 rounded">
+          <button className="px-2 md:px-6 text-xs bg-[#B9B9B9] text-white py-2 md:py-3 rounded">
           Certificate
           </button>
         </div>

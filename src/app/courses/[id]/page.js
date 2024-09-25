@@ -117,15 +117,18 @@ const CourseDetailsPage = () => {
             </div>
           </div>
 
-
           <div className="grid grid-cols-1 mt-8 rounded-lg border border-[#0000004D] p-5 md:grid-cols-2">
             <div>
               <p>Start Admission</p>
-              <p className="text-lg font-semibold text-primary mt-2">December 10, 2023 12:00PM</p>
+              <p className="text-lg font-semibold text-primary mt-2">
+                December 10, 2023 12:00PM
+              </p>
             </div>
             <div className="border-l pl-8 border-l-[#CE2786]">
               <p>End Admission</p>
-              <p className="text-lg font-semibold text-primary mt-2">December 10, 2023 12:00PM</p>
+              <p className="text-lg font-semibold text-primary mt-2">
+                December 10, 2023 12:00PM
+              </p>
             </div>
           </div>
         </div>

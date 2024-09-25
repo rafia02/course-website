@@ -9,27 +9,29 @@ import userBg2 from "/public/assets/dashboard/UserHome/bg-user-card2.png";
 import Image from "next/image";
 import CoruseNavItem from "@/components/CourseOverview/CoruseNavItem";
 import CourseProgress from "@/components/CourseOverview/CourseProgress";
+import { BiSolidCategory } from "react-icons/bi";
 
 const CourseOverviewLayout = ({ children }) => {
   return (
-    <section className="my-[50px] px-5 md:px-8">
-      <div className="mb-10  flex items-center gap-4">
-        <h2 className="text-transparent  bg-loginButton bg-clip-text text-[30px] font-semibold">
-        1.1 Easy Driving - 101 Exercises
+    <section className="my-12 px-5 md:px-8">
+      <div className="flex mb-10 flex-col-reverse md:flex-row items-start md:items-center gap-3">
+        <h2 className="text-[28px] text-primary font-bold">
+          Easy to Learn React Development
         </h2>
-        <p className="flex items-center gap-2">
-          {" "}
-          <span className="w-5 h-5 rounded-full inline-block bg-secondaryGradiant"></span>{" "}
-          Catagory- B
-        </p>
+        <div>
+          <button className=" bg-secondary w-[130px] py-1 md:py-[6px] text-white px-3 md:px-4 rounded-[20px] flex items-center gap-2">
+            <BiSolidCategory className="md:text-lg" />
+            <p className="text-xs font-semibold">Category - B</p>
+          </button>
+        </div>
       </div>
-      <div className="flex max-h-fit justify-between overflow-hidden  scrollbar-hide container  gap-5">
-        <div className="relative font-liador h-fit overflow-y-auto  w-[413px]">
+      <div className="flex flex-col-reverse md:flex-row justify-between overflow-hidden  scrollbar-hide  gap-5">
+        <div className="relative font-liador h-fit overflow-y-auto  md:w-[413px]">
           <div
             className={`bg-[#F2F2F2] transition-all duration-300 p-6 relative h-[838px] overflow-y-auto  rounded-lg border border-solid border-black/30`}
           >
             <h4 className="text-2xl font-semibold pb-1 primary-text-color mb-6 border-b border-solid border-[#CE2786]">
-            Course content
+              Course content
             </h4>
             <ul className="flex flex-col gap-4 ">
               <CoruseNavItem
@@ -42,7 +44,7 @@ const CourseOverviewLayout = ({ children }) => {
             </ul>
           </div>
         </div>
-        <main className={`flex-1 `}>
+        <main className={`md:flex-1 `}>
           <CourseProgress />
           <div className=" xl:h-[56%] 2xl:h-[57%] overflow-y-auto scrollbar-hide ">
             {children}
@@ -57,19 +59,19 @@ const CourseOverviewLayout = ({ children }) => {
             />
             <div className="flex justify-between relative z-50">
               <div>
-                <button className="px-4 text-base flex items-center gap-2 text-white font-semibold py-3 bg-[#B0B0B0] rounded">
-                  <FaArrowLeft /> Previous topic
+                <button className="px-2 md:px-4 text-xs md:text-base flex items-center gap-[3px] md:gap-2 text-white font-semibold py-2 md:py-3 bg-[#B0B0B0] rounded">
+                  <FaArrowLeft /> Previous 
                 </button>
               </div>
               <div>
-                <button className="px-4 text-base flex items-center gap-2 text-white font-semibold py-3 bg-loginButton rounded">
+                <button className="px-2 md:px-4 text-xs md:text-base flex items-center gap-[3px] md:gap-2 text-white font-semibold py-2 md:py-3 bg-loginButton rounded">
                   Mark As Complete
                   <FaRegCheckCircle />
                 </button>
               </div>
               <div>
-                <button className="px-4 text-base flex items-center gap-2 text-white font-semibold py-3 bg-primaryGradiant rounded">
-                Next topic <FaArrowRight />
+                <button className="px-2 md:px-4 text-xs md:text-base flex items-center gap-[3px] md:gap-2 text-white font-semibold py-2 md:py-3 bg-primaryGradiant rounded">
+                  Next  <FaArrowRight />
                 </button>
               </div>
             </div>

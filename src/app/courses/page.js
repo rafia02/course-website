@@ -59,7 +59,7 @@ const CoursesPage = () => {
                   <p className="text-xs font-semibold">Category -B</p>
                 </div>
                 <h1 className=" font-semibold my-5 text-primary">
-                  1.1 Easy Driving - 101 Exercise
+                 Fundamentals of Driving
                 </h1>
                 <div className="flex items-center justify-between">
                   <div className="flex gap-1 items-center">
@@ -89,7 +89,7 @@ const CoursesPage = () => {
               <p className="text-xs font-semibold">Category -B</p>
             </div>
             <h1 className=" font-semibold my-5 text-primary">
-              1.1 Easy Driving - 101 Exercise
+             Fundamentals of Driving
             </h1>
             <div className="flex items-center justify-between">
               <div className="flex gap-1 items-center">
@@ -119,7 +119,7 @@ const CoursesPage = () => {
               <p className="text-xs font-semibold">Category -B</p>
             </div>
             <h1 className=" font-semibold my-5 text-primary">
-              1.1 Easy Driving - 101 Exercise
+             Fundamentals of Driving
             </h1>
             <div className="flex items-center justify-between">
               <div className="flex gap-1 items-center">

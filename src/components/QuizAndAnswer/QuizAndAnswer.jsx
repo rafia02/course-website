@@ -9,7 +9,7 @@ import clock from "/public/assets/CourseOverview/clock.png";
 import score from "/public/assets/CourseOverview/score.png";
 const QuizAndAnswer = () => {
   return (
-    <div className="py-10 font-liador relative px-20 border border-solid bg-[rgba(247,247,247,0.50)]  rounded-lg">
+    <div className="py-5 font-liador relative px-10 md:px-20 border border-solid bg-[rgba(247,247,247,0.50)]  rounded-lg">
       <Image
         src={userBg}
         width={150}
@@ -23,7 +23,7 @@ const QuizAndAnswer = () => {
           Quiz - 1
         </h3>
         <p className="text-base">Sat Nov 11 at 10:00 PM</p>
-        <div className="flex justify-around w-full   items-center py-4 my-[21px] border border-solid border-[rgba(0,0,0,0.30)] bg-[rgba(247,247,247,0.50)] rounded-lg">
+        <div className="flex flex-col md:flex-row justify-around w-full   items-center py-4 my-5 border border-solid border-[rgba(0,0,0,0.30)] bg-[rgba(247,247,247,0.50)] rounded-lg">
           <div className="flex justify-center flex-col items-center">
             <Image width={32} height={32} src={QA2} alt="" />
             <h4 className="text-lg text-black ">Total Question</h4>

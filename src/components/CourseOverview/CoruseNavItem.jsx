@@ -11,16 +11,16 @@ const CoruseNavItem = ({ Icon, href, isUnlock, CheckIcon }) => {
   const pathname = usePathname();
   // dummy array
 
-  const courseItem = [1, 2];
+  const courseItem = [1, 2, 3, 4, 5, 7, 8,9,10, 11, 12, 13, 14, 15, 16, 17, 18];
   // dummy condition
   const isModuleOpen = "true";
   return (
     <>
       <Accordion
         itemClasses={{
-          heading: "text-sm",
+          heading: "",
           trigger: "pr-6 pl-4 mb-4 bg-loginButton text-white rounded-lg",
-          content: "px-6",
+          content: "px-16",
           indicator: "text-white",
         }}
         className="px-0 "

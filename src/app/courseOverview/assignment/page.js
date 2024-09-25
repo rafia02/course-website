@@ -9,7 +9,7 @@ import PrimaryButton from "@/components/shared/CommonButton";
 
 const AssignmentOverview = () => {
   return (
-    <div className="py-10 font-liador relative px-[30px] border border-solid bg-white  rounded-lg">
+    <div className="py-5 font-liador relative px-[30px] border border-solid bg-white  rounded-lg">
       <Image
         src={userBg}
         width={100}
@@ -18,11 +18,11 @@ const AssignmentOverview = () => {
         className="absolute left-0 top-0 z-10"
       />
       {/* top part */}
-      <div className=" w-full flex justify-between mb-12  relative z-50">
+      <div className=" w-full flex flex-col md:flex-row justify-between mb-12  relative z-50">
         <div className="flex gap-3 items-center">
           <Image width={36} height={36} src={assignment} alt="" />
           <div>
-            <h3 className="font-semibold text-[32px]  text-transparent bg-loginButton bg-clip-text">
+            <h3 className="font-semibold text-3xl  text-transparent bg-loginButton bg-clip-text">
               Assignment-1
             </h3>
             <p className="text-base">
@@ -57,7 +57,7 @@ const AssignmentOverview = () => {
         </h3>
       </div>
       {/* Upload file */}
-      <div className="grid grid-cols-2 gap-5 mt-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-5">
         <div className="bg-[rgba(247,247,247,0.50)] px-[30px] py-6 border border-solid border-[rgba(0,0,0,0.30)] rounded-lg">
           <p className="second-text-color text-xl font-semibold mb-5">
           Your file has been uploaded
