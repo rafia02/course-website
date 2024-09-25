@@ -27,6 +27,48 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+@layer components {
+  .primary-text-color {
+    @apply text-transparent bg-primaryGradiant bg-clip-text;
+  }
+  .second-text-color {
+    @apply text-transparent bg-secondaryGradiant bg-clip-text;
+  }
+  /* .container {
+    @apply max-w-7xl mx-auto px-5;
+  } */
+  .underline_modifi.profile button {
+    @apply w-[197px];
+  }
+  .underline_modifi button > span {
+    @apply bg-secondaryGradiant w-[197px];
+  }
+  .profile_tab > div {
+    @apply gap-[128px];
+  }
+  .underline_modifi button > div {
+    @apply text-transparent bg-primaryGradiant bg-clip-text;
+  }
+  .select_course button {
+    @apply bg-transparent !text-white font-semibold;
+  }
+}
+
+
+
+
+
 .tx{
   font-family: "Sedgwick Ave", cursive;
 
@@ -49,7 +91,7 @@ body {
 
 
 .setbg {
-  background-image: url("../Assets/background/bg3.png");
+  background-image: linear-gradient(to right bottom, #a32473, #8e287e, #752e87, #56348d, #2b388f);
   background-size: cover;
   background-position: center;
   
@@ -111,6 +153,47 @@ body {
   background-size: 10px 10px;
   opacity: 100%;
 }
+
+
+
+
+
+
+.navItem:hover {
+  background: linear-gradient(90deg, #c62f8f 0%, #ce2786 100%);
+}
+.navItem:hover .iconCustomColor {
+  color: white;
+}
+
+.modal_scrollbar ::-webkit-scrollbar {
+  width: 10px;
+}
+.modal_scrollbar ::-webkit-scrollbar-track {
+  background-color: #bfbfbf;
+  border-radius: 4px;
+}
+.modal_scrollbar ::-webkit-scrollbar-thumb {
+  background-color: #ce2786;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* 

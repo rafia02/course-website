@@ -1,9 +1,17 @@
+import {nextui} from "@nextui-org/react"
+
+
+
+
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+// module.exports
+const config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
+    // "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -15,6 +23,8 @@ module.exports = {
           "linear-gradient(95deg, #EB31A2 -46.2%, #2B388F 39.88%, #2B388F 72.9%, rgba(224, 56, 158, 0.80) 143.06%)",
         linearGradiant:
           "linear-gradient(95deg, #EB31A2 -1.37%, #2B388F 39.88%, #2B388F 52.27%, rgba(224, 56, 158, 0.80) 103.75%)",
+
+          
       },
 
 
@@ -41,5 +51,10 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  darkMode: "class",
+  plugins: [nextui()]
 };
+
+
+
+export default config

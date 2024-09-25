@@ -70,7 +70,7 @@ const Navber = () => {
             </span>
           </button>
 
-          <Link href={"/dashboard"}>
+          <Link href={"/courseOverview/1"}>
                     <button className="bg-primaryGradiant rounded  font-semibold text-white flex py-[10px] px-5 gap-[10px] items-center ">
                       Dashboard <MdOutlineDashboard className="text-2xl" />
                     </button>
